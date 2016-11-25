@@ -1,0 +1,31 @@
+{
+  "name": "academy-auth-webapi",
+  "version": "1.0.0",
+  "description": "Moonlay academy auth api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonlay-technologies/academy-auth-webapi.git"
+  },
+  "author": "Moonlay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonlay-technologies/academy-auth-webapi/issues"
+  },
+  "homepage": "https://github.com/moonlay-technologies/academy-auth-webapi#readme",
+  "dependencies": {
+    "academy-module": "git+https://github.com/moonlay-technologies/academy-module.git#dev",
+    "jsonwebtoken": "^7.1.9",
+    "mongo-factory": "^1.0.0",
+    "mongodb": "^2.2.11",
+    "mongodb-toolkit": "git+https://github.com/pinkgorilla/mongodb-toolkit.git",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "restify": "^4.3.0",
+    "restify-router": "^0.2.1"
+  }
+}
